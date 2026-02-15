@@ -1,0 +1,66 @@
+body{
+    background:linear-gradient(101deg,rgb(12, 2, 9),rgb(65, 22, 48),rgb(126, 56, 99),rgb(199, 101, 162),rgb(222, 161, 199),rgb(254, 203, 235),rgb(226, 173, 255),rgb(190, 239, 255),rgb(152, 208, 227),rgb(70, 147, 173),rgb(38, 101, 122),rgb(29, 55, 107),rgb(9, 1, 37));
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-family: Helvetica, verdana, sans-serif;
+    color: rgb(55, 55, 9);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.21);
+}
+input[type="radio"]{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+button{
+    font: inherit;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+}
+
+#forms{
+    font: inherit;
+    padding: 100px;
+    margin: 50px;
+    background-color: rgba(132, 132, 241, 0.089);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: rgb(74, 1, 9);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-size:1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease-in-out 0.3s;
+}
+#forms:hover , #result:hover{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#result{
+    font: inherit;
+    padding: 30px;
+    margin: 60px;
+    background-color: rgba(132, 132, 241, 0.089);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: rgb(40, 40, 10);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow:0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-size:1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease-in-out 0.3s;
+}
